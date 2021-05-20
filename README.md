@@ -9,10 +9,13 @@ Export a glob of collections from a single database in json, ndjson or csv forma
 `$ mongocet`
 
 ### Collection pattern
-`*` is all collections, `test_*` is all collections starting with `test_`. [minimatch](https://github.com/isaacs/minimatch) is used for collection name patterns. 
+`*` is all collections.  
+`test_*` is all collections starting with `test_`.  
 
 ### CSV date field patterns
-`date` is just a `date` field, `date*` is all fields starting with `date`. `*_date` is all fields ending with `_date`. [minimatch](https://github.com/isaacs/minimatch) is used for field name patterns. 
+`date` is just a `date` field.  
+`date*` is all fields starting with `date`.  
+`*_date` is all fields ending with `_date`.  
 
 ### Configuration with `.mongocetrc.json`
 Create a file in your working folder to preconfigure `mongocet`.
@@ -24,6 +27,6 @@ Create a file in your working folder to preconfigure `mongocet`.
   "collectionsPattern": "*",
   "outputDir": "../export",
   "outputFormat": "csv",
-  "csvDateFields": ["date"]
+  "csvDateFieldPattern": "date"
 }
 ``
