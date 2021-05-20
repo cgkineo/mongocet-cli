@@ -29,4 +29,4 @@ Create a file in your working folder to preconfigure `mongocet`.
   "outputFormat": "csv",
   "csvDateFieldPattern": "date"
 }
-``
+```
