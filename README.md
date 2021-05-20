@@ -1,4 +1,4 @@
-# MongoDB collection exporter
+# MongoDB collection export tool
 
 Export a glob of collections from a single database in json, ndjson or csv format.
 
