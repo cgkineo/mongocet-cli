@@ -1,6 +1,6 @@
 {
   "name": "mongocet-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "bin": {
     "mongocet": "./bin/mongocet"
@@ -25,12 +25,13 @@
     "prompt": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-requirejs": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-requirejs": "^4.0.1",
+    "eslint-plugin-standard": "^5.0.0"
   }
 }
